@@ -21,7 +21,7 @@ class Lista:
             self.list.append(Jogador(count,l_hab,l_luck))
 
     
-qtd = 1000000
+qtd = 100000
 teste = Lista(qtd)
 order = sorted(teste.list, key=Jogador.get_total, reverse=True)
 
